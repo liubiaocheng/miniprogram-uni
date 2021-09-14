@@ -1,0 +1,147 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "ODS云管家故障帮助平台"
+				/* "navigationStyle": "custom",
+				
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				} */
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#5296FD"
+
+			}
+		},
+		{
+			"path": "pages/me/PersonalMessage",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#5296FD"
+			}
+		},
+		{
+			"path": "pages/me/changeMes",
+			"style": {
+				"navigationBarTitleText": "修改",
+				"navigationBarBackgroundColor": "#5296FD"
+			}
+		},
+		{
+			"path": "pages/documentIndex/documentIndex",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "ODS知识库",
+				"navigationBarBackgroundColor": "#5296FD",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/document/document",
+			"style": {
+				"navigationBarTitleText": "文档",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/document/videoPropaganda/videoPropaganda",
+			"style": {
+				"navigationBarTitleText": "视频宣传",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/document/faultBook/faultBook",
+			"style": {
+				"navigationBarTitleText": "故障排除",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/upInfo/upInfo",
+			"style": {
+				"navigationBarTitleText": "上报信息",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/inquire/inquire",
+			"style": {
+				"navigationBarTitleText": "待办工单"
+				/* ,
+								"navigationBarTextStyle": "black",
+								"navigationBarBackgroundColor": "#FFFFFF" */
+			}
+		}, {
+			"path": "pages/cloud/cloud",
+			"style": {
+				"navigationBarTitleText": "云"
+			}
+		}, {
+			"path": "pages/document/faultBook/faultResult",
+			"style": {
+				"navigationBarTitleText": "查询结果",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/document/workBook/workBook",
+			"style": {
+				"navigationBarTitleText": "操作手册",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/inquire/inst-detail/inst-detail",
+			"style": {}
+		}, {
+			"path": "pages/inquire/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索工单"
+			}
+		}
+        ,{
+            "path" : "pages/home/feedback",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/AtomopsWebview",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#5296FD",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/ic-home.png",
+				"selectedIconPath": "static/ic-home2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/documentIndex/documentIndex",
+				"iconPath": "static/ic-cloud.png",
+				"selectedIconPath": "static/ic-cloud_1.png",
+				"text": "资料库"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/ic-mine.png",
+				"selectedIconPath": "static/ic-mine_1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
